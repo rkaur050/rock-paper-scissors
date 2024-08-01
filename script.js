@@ -40,7 +40,7 @@ circle.forEach((option,index)=>{
             p.textContent=`YOU WON THIS ROUND!`;
             playerScore++;
         }else{
-            p.textContent=`IT'S A ROUND!`;
+            p.textContent=`IT'S A TIE!`;
         }
         rounds++;
         round.textContent=rounds;
