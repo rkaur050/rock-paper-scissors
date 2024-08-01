@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0D0C1A;
+    font-family:sans-serif;
+    padding: 2rem;
+    color:white;
+    
+}
+.header{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    text-align: center;
+}
+.header-box{
+    padding:0.5rem;
+    font-size: 2rem;
+}
+.volume-box{
+    width:80%;
+    padding:0.5rem;
+    font-size:1.8rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}    
+.main{
+    margin-top:2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1.5rem;
+    width:75%;
+    margin-left: auto;
+    margin-right:auto;
+}
+.score ,.rounds{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100%;
+    text-align: end;
+}   
+.player{
+    color:#19CCF0;
+}
+.machine{
+    color:#F007F0;
+}
+p{
+    text-align: center;
+    margin-top:2rem;
+    font-size: 1.6rem;
+}
+.reset-box{
+    border-radius: 50%;
+    background-color: #0b83f2 ;
+    height:50px;
+    width:50px;
+    text-align: center;
+    padding-top:5px;
+}
+.reset-box:hover{
+    background-color: #0A4F94;
+}
+.controls{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+}
+.circle{
+    background-color: white;
+    border-radius: 50%;
+    height: 50px;
+    width:50px;
+    text-align: center;
+    padding-top:15px;
+}
+.circle:hover{
+    background-color: rgba(255, 255, 255, 0.406);
+}
+.round{
+    color:orange;
+}
+
